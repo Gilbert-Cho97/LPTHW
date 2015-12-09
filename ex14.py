@@ -8,11 +8,11 @@ print "I'd like to ask you a few questions."
 print "Do you like me %s?" % user_name
 likes = raw_input(prompt)
 
-print "Where do you live%" % user_name
+print "Where do you live %s" % user_name
 lives = raw_input(prompt)
 
 print "What kind of computer do you have?"
-computer = raw_ input(prompt)
+computer = raw_input(prompt)
 
 print """
 Alright, so you said %r about liking me.
